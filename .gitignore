@@ -1,0 +1,38 @@
+# Dataset - ne pas pusher
+*.csv
+*.xlsx
+*.json
+data/
+
+# MLflow runs
+mlruns/
+mlartifacts/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Django
+*.sqlite3
+backend/staticfiles/
+backend/media/
+
+# React / Node
+node_modules/
+build/
+dist/
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
