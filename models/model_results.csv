@@ -1,0 +1,2 @@
+model,f1_score,accuracy,recall,precision
+XGBoost_Raw_Data,0.7535410764872522,0.739,0.7571157495256167,0.75
