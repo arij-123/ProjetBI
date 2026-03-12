@@ -4,9 +4,13 @@
 *.json
 data/
 
-# MLflow runs
+# Modèle ML - fichier lourd
+best_model.pkl
+
+# MLflow
 mlruns/
 mlartifacts/
+mlflow.db
 
 # Python
 __pycache__/
@@ -21,10 +25,12 @@ env/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
+
 # Django
 *.sqlite3
-backend/staticfiles/
-backend/media/
+db.sqlite3
+staticfiles/
+media/
 
 # React / Node
 node_modules/
